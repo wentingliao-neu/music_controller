@@ -20,8 +20,9 @@ module.exports = {
    optimization: {
       minimize: true,
    },
-   //    },
-   //    externals: {
-   //       react: "React",
-   //    },
+   performance: {
+      hints: false,
+      maxEntrypointSize: 512000,
+      maxAssetSize: 512000,
+   },
 };
